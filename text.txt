@@ -1,0 +1,5 @@
+GET- get all tasks 
+GET-get task by id
+POST- make new task
+PATCH- update a task
+DELETE- delete a task
