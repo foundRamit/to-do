@@ -1,4 +1,4 @@
-const Task = require('../models/task'); // Make sure this is actually the Task model, not "user"
+const Task = require('../models/task'); 
 
 exports.getAllTasks = async (req, res) => {
   try {
@@ -63,3 +63,4 @@ exports.makeATask = async (req, res) => {
     res.status(500).json({msg:"task created succesfully", result})
   }
 };
+
