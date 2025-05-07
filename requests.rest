@@ -1,0 +1,24 @@
+### GET ALL TASKS.
+GET http://localhost:9001/api/tasks/
+
+### CREATE A NEW TASK.
+POST http://localhost:9001/api/tasks/
+Content-Type: application/json
+
+{
+    "task": "buy a badminton racket."
+}
+
+### GET A TASK BY ID.
+GET http://localhost:9001/api/tasks/6813d793ee5ffc43c83097a6
+
+### DELETE A TASK BY ID.
+DELETE http://localhost:9001/api/tasks/681b36cc6b5fd81ad4ee404d
+
+### UPDATE A TASK BY ID.
+PATCH http://localhost:9001/api/tasks/6813d793ee5ffc43c83097a6
+Content-Type: application/json
+
+{
+  "task": "Learn about Node.js."
+}
